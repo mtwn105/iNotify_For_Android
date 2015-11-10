@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/action_settings">
+
+    <PreferenceCategory android:title="Bluetooth Settings">
+        <SwitchPreference
+            android:key="bluetooth_status"
+            android:summary="Notifies when bluetooth is On from a long time"
+            android:title="Bluetooth Notification"
+            android:defaultValue="false"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="WiFi Settings">
+        <SwitchPreference
+            android:key="wifi_status"
+            android:summary="Notifies when wifi is On from a long time"
+            android:title="WiFi Notification"
+            android:defaultValue="false"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Misc. Settings">
+        <SwitchPreference
+            android:key="charge_status"
+            android:summary="Notifies when your phone is full charged"
+            android:title="Full Charge Notification"
+            android:defaultValue="false"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>
